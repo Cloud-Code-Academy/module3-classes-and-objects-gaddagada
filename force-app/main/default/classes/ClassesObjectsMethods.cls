@@ -144,8 +144,7 @@ public with sharing class ClassesObjectsMethods {
      * @return The number of vowels in the string.
      */
     public static Integer countVowels(String str) {
-        // Declare a constant for the vowels
-        final String VOWELS ='';
+        
            // Initialize the result Integer
             Integer result = 0;
 
@@ -154,7 +153,7 @@ public with sharing class ClassesObjectsMethods {
                 return result;
             }
            // Declare a constant for the vowels
-            VOWELS = 'aeiouAEIOU';
+            final String VOWELS = 'aeiouAEIOU';
 
            // Loop through all characters in the string, and check if the character is a vowel
             for(Integer i = 0; i < str.length(); i++) {
